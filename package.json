@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brianhaag/Brite/issues"
   },
-  "homepage": "https://github.com/brianhaag/Brite"
+  "homepage": "https://github.com/brianhaag/Brite",
+  "dependencies": {
+    "node-rest-client": "^1.5.1"
+  }
 }
