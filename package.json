@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/brianhaag/Brite",
   "dependencies": {
+    "express": "^4.13.3",
+    "express-generator": "^4.13.1",
     "node-rest-client": "^1.5.1"
   }
 }
