@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   "homepage": "https://github.com/brianhaag/Brite",
   "dependencies": {
     "express": "^4.13.3",
-    "express-generator": "^4.13.1",
     "node-rest-client": "^1.5.1"
   }
 }
