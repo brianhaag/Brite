@@ -16,3 +16,5 @@ express--but is it actually necessary?
 postgresql?
 
 d3
+
+can nodes be meshed via uds?  are there nec messaging libs?
