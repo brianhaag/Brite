@@ -1,4 +1,5 @@
 # BriTE
+
 Brian's Trading Environment
 
 link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -11,10 +12,10 @@ json
 
 react or angular?
 
-express--but is it actually necessary?
+express (for static too?  => existing user "downloads" the page they saved last time)
 
 postgresql?
 
 d3
 
-can nodes be meshed via uds?  are there nec messaging libs?
+socket.io for client communication + possibly net.server for UDS
