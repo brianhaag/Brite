@@ -18,4 +18,8 @@ postgresql?
 
 d3
 
+fixatdl
+
+ta-lib
+
 socket.io for client communication + possibly net.server for UDS
