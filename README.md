@@ -1,25 +1,36 @@
 # BriTE
 
-Brian's Trading Environment
+BriTE (Brian's Trading Environment) is a full-stack trading infrastructure implemented using modern web technologies. Clients are HTML5 documents, regardless of device, and will download and use the libs they need for the specific tasks they perform (accounting, market monitoring, etc.).
 
-link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+Server (Node):
+* Passport
+* Express
+* Socket.io / cluster / net.server
+* PostgreSQL
+* ? ta-lib
+* ? logging
 
-passport (oauth?  do brokers do this?)
+Client (Chrome):
+* Angular (grid controls)
+* d3
+* ? site tour
+* ? cookies
+* ? iframes
+* ? websockets
+* ? system health
+* Font Awesome
 
-node
+Other:
+* jasmine / testing
+* auto-doc tool
+* CDN stuff
 
-json
+What will your MVP be?
+Stubbed back-end services that mock functionality to the point that the client can be demonstrated. Client will include at least two "screens", one showing "live" market data and another plotting historical price data. This will most likely be implemented via some CSS on a grid control and a for d3.
 
-react or angular?
+What features will you add if you have time?
+in order: live data (I think I can open a brokerage account and get it free)
 
-express (for static too?  => existing user "downloads" the page they saved last time)
+simulated executions
 
-postgresql?
-
-d3
-
-fixatdl
-
-ta-lib
-
-socket.io for client communication + possibly net.server for UDS
+historical research and testing
